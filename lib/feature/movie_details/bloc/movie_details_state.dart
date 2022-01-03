@@ -19,7 +19,7 @@ class MovieLoaded extends MovieDetailsState {
 class NoMovie extends MovieDetailsState {}
 
 class MovieDeleted extends MovieDetailsState {
-  var moviesList;
+  final moviesList;
 
   MovieDeleted({required this.moviesList}) : super();
 }

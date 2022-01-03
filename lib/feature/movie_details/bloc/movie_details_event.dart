@@ -16,7 +16,7 @@ class LoadedMovie extends MovieDetailsEvent {}
 class ShowMovie extends MovieDetailsEvent {}
 
 class DeleteMovie extends MovieDetailsEvent {
-  var movie;
+  final movie;
 
   DeleteMovie({required this.movie}) : super();
 }
