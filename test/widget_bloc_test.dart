@@ -86,9 +86,8 @@ void main() {
   testWidgets('Home Page tests', (tester) async {
     mockMoviesRepository.setMovies(movies);
 
-    when(() => moviesListBloc.state).thenReturn(EmptyList());
+    when(() => moviesListBloc.state).thenReturn(InitialState());
 
-    await tester.pumpAndSettle();
     await tester.pumpWidget(_homePageWidget);
     await tester.pumpAndSettle();
 
