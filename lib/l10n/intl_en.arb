@@ -1,0 +1,12 @@
+{
+  "mainAppBarTitle": "Filmguru",
+  "getStarted": "Get started",
+  "codeclusive": "Codeclusive 2021©",
+  "dialogTitle": "Are you sure?",
+  "dialogMessage": "Do you really want to delete this movie? This action cannot be undone.",
+  "dialogConfirm":"Confirm",
+  "dialogCancel": "Cancel",
+  "errorGeneral": "Something went wrong :(",
+  "errorNoData": "Failed to load data :(",
+  "errorNoMovie": "Failed to load movie :("
+}
